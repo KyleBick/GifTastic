@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var topics = ["Gin", "Beer", "Rum", "Vodka", "Tquila", "Whiskey", "Brandy", "Wine"];
+    var topics = ["Gin", "Beer", "Rum", "Vodka", "Tequila", "Whiskey", "Brandy", "Wine"];
 
     function displayImg(){
 
