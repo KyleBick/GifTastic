@@ -5,16 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GifTastic</title>
-    <link <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
+
+
+
 <body>
-    
+    <div class="container">
+    <div class="jumbotron">
+        <h1>Drunk -n- Bored</h1>
+        
+    </div>
 
+    <div class="row">
+        <div class="col-md-12" id="topics"></div>
+    </div>
 
+    <div class="row">
+        <div class="col-md-12">
+            <form id="form">
+                <label for="user-input" class="search">Search through the drunkeness</label><br>
+                <input type="text" id="user-input">
+                <input id="submitPress" type="submit" value="Submit" class="btn btn-default">
+            </form>
+        </div>
+    </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <div class="row">
+        <div class="col-md-12" id="display-images"></div>
+    </div>
+
+</div>    
+<!-- Link to JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/js/app.js"></script>
+
 </body>
 </html>

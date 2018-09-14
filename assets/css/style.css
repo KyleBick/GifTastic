@@ -1,0 +1,52 @@
+button, div, form, input {
+	margin: 5px;
+}
+
+
+img {
+	max-width: 300px;
+    max-height: 300px;
+    border: 3px solid tan;
+}
+
+label {
+    color: #fff;
+}
+
+.btn {
+    background-color: tan;
+}
+
+.btn-default {
+    color: brown;
+    font-size: medium;
+    border: solid 2px rgb(255, 202, 133);
+}
+
+.search{
+    color: brown;
+}
+
+.holder{
+    width: 35%;
+}
+
+body {
+    background-image: url("../images/beer.jpg");
+    background-size: auto;
+    font-family: 'Bad Script', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.holder {
+    float: left;
+}
+
+.jumbotron {
+    text-align: center;
+    color: Brown;
+    background-color: burlywood;
+}
+
+
